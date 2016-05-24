@@ -1,0 +1,47 @@
+{
+  "name": "eeyellowLibrary",
+  "version": "1.0.0",
+  "private": true,
+  "description": "eeyellow's Library",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": []
+  },
+  "dependencies": {
+    "babel-core": "^6.9.0",
+    "babel-polyfill": "^6.9.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.9.0",
+    "babelify": "^7.3.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-webpack": "^1.7.0",
+    "phantomjs": "^2.1.7",
+    "phantomjs-prebuilt": "^2.1.7",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "dev": "node_modules/.bin/webpack-dev-server",
+    "webpack": "node_modules/.bin/webpack --watch",
+    "build": "node_modules/.bin/webpack --progress --colors",
+    "test": "karma start"
+  },
+  "author": "eeyellow",
+  "license": "ISC"
+}
